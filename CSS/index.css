@@ -55,3 +55,53 @@
     margin-top: 32px;
     font-size: 16px;
 }
+
+#detail-container{
+    margin-top: 131px ;
+    
+
+}
+#detail-container .detail-content{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width:67% ;
+    max-width: 1072px;
+    margin: 0 322px 0 206px ;
+}
+
+.detail-content .detail-box .detail-text{
+
+    text-align: left;
+    width: 416px;
+    margin:   245px 0 78.3px 87px;
+}
+.detail-content .detail-box .detail-text h2{
+    font-size: 40px;
+    color: #151414;
+}
+.detail-content .detail-box .detail-text p{
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+    margin-top: 24px;
+}
+.detail-content .detail-box .detail-text ul{
+    width: 349px;
+    margin:  16px 67px 0 0;
+    
+    
+}
+
+.detail-content .detail-box .detail-text li{
+    color:#444343 ;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 8px;
+    list-style:'✔  ' ;
+    
+    
+}
+li::marker {
+  color: #16D887; 
+}
