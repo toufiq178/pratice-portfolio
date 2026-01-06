@@ -20,7 +20,7 @@
 /* mainstyle */
 #header{
     height: 808px ;
-    width: 1598px ;
+    width: 100% ;
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat ;
     display: flex;
