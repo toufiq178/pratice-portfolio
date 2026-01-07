@@ -56,12 +56,12 @@
     font-size: 16px;
 }
 
-#detail-container{
+#detail{
     margin-top: 131px ;
     
 
 }
-#detail-container .detail-content{
+#detail .detail-content{
     align-items: center;
     display: flex;
     justify-content: center;
@@ -104,4 +104,47 @@
 }
 li::marker {
   color: #16D887; 
+}
+
+#plans {
+    padding-top: 130px;
+}
+
+#plans .plans-container{
+
+    width: 71%;
+    max-width: 1141px;
+    margin: 0 auto;
+}
+
+#plans .plans-container .plans-tittle{
+
+    text-align: center;
+    margin:0 auto;
+    font-size: 40px;
+    color: 15141;
+
+}
+#plans .plans-container .plans-box{
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 61px;
+}
+.plans-box .plans-card{
+    text-align: center;
+    margin-top: 56px;
+}
+
+.plans-box .plans-card h3{
+
+    font-size: 30px;
+    color: #151414;
+    padding-top: 24px;
+}
+.plans-box .plans-card p{
+
+    font-size: 25px;
+    color: #737272;
+    padding-top: 16px;
 }
