@@ -189,7 +189,7 @@ li::marker {
     color: white;
 }
 
-.contract-container .contract-containt .contract-box button{
+.contract-container .contract-containt .contract- .button-subcribe ,button{
 
     width: 160px;
     margin-top: 27px;
@@ -200,4 +200,81 @@ li::marker {
     border-radius: 5px;
     background-color: white;
     color: #F15B22;
+}
+
+footer{
+    background-color: #151414;
+    margin-top: 130px;
+    padding: 130px 0;
+}
+
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-between;
+    gap: 331px;
+
+}
+
+footer .footer-container .social {
+
+    max-width: 485px;
+    
+}
+
+footer .footer-container .social h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: #F8F8F8;
+}
+footer .footer-container .social p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+footer .footer-container .social .contract-box{
+
+    margin-top: 24px;
+    text-align: left;
+}
+footer .footer-container .social .contract-box .social-icon , .socail-contract{
+
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+footer .footer-container .social .contract-box .socail-contract li{
+
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+}
+footer .footer-container .social .contract-box .social-icon {
+
+    display: flex;
+    margin-top: 32px;
+    width: 175px ;
+    gap: 17px;
+    text-align: left;
+}
+
+.footer-container .form {
+    width: 325px;
+}
+.footer-container .form h2 {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+.footer-container .form input{
+    margin-top: 31px;
+    color: #F3F3F3 ;
+    font-size: 18px;
+    padding: 21px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 8px;
 }
