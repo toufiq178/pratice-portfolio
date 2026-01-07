@@ -148,3 +148,56 @@ li::marker {
     color: #737272;
     padding-top: 16px;
 }
+
+#contract {
+    padding-top: 130px;
+
+}
+
+#contract  .contract-container {
+    background-image: url('../images/watch.png');
+    width: 71%;
+    border-radius: 8px ;
+    max-width: 1140px;
+    margin: 0 auto;
+    border: none;
+    height: 400px;
+    background-repeat: no-repeat;
+    
+}
+#contract  .contract-container .contract-containt{
+
+    background-image: url('../images/gradient2.png');
+    width: 100%;
+    border-radius: 8px ;
+    max-width: 1140px;
+    margin: 0 auto;
+    border: none;
+    height: 400px;
+    background-repeat: no-repeat;
+    
+}
+.contract-container .contract-containt .contract-box {
+    width: 459px;
+    margin-left: 64px;
+    padding-top: 59px;
+    padding-bottom: 59px;
+}
+
+.contract-container .contract-containt .contract-box h1{
+    font-size: 40px;
+    color: white;
+}
+
+.contract-container .contract-containt .contract-box button{
+
+    width: 160px;
+    margin-top: 27px;
+    height: 64px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    color: #F15B22;
+}
