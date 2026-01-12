@@ -1,0 +1,159 @@
+@media screen and (max-width:576px) {
+
+    #header{
+        height: auto;
+        justify-content: end;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #header .header-container {
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 0; 
+        width: 59%; 
+        
+        
+    }
+     #header .header-content{
+        width: 60%;
+        padding: 5%;              
+    }
+    #header .header-container .header-content h1{
+
+        font-size: 1.3rem;
+        
+    }
+    #header .header-container .header-content p{
+
+        font-size: 0.7em;
+        line-height: 15px;
+        text-align: end;
+        max-width: 100%;
+         margin-top: 9px;
+        
+    }
+    #header .header-container .header-content .contract-btn{
+
+        font-size: 1rem;
+        width: 119px;
+        height: 55px;
+        border-radius: 5px;
+        border: none;
+        background-color: #F15B22;
+        font-weight: 600;
+        margin-top: 23px;
+        color: white;
+        
+    }
+    #detail ,#plans ,#contract ,footer {
+        margin-top: 60px;
+    }
+    #detail .detail-content{
+
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0 ;
+        padding: 0 12px;
+    }
+    #detail .detail-content .detail-image img{
+        width: 70%;
+    }
+    .detail-content .detail-box .detail-text {
+
+        width: 100%;
+        margin: 0;
+    }
+    .detail-content .detail-box .detail-text h2 {
+        font-size: 1.3em;
+    }
+    .detail-content .detail-box .detail-text ul{
+        width: 100%;
+        margin: 0;
+    }
+    #plans .plans-container{
+
+        max-width: 100%;
+    }
+    #plans .plans-container .plans-tittle{
+
+        font-size: 1.2em;
+
+    }
+    #plans .plans-container .plans-box{
+
+        flex-direction: column;
+
+        padding-top: 30px;
+    }
+    .plans-box .plans-card h3{
+
+        font-size: 1.1em;
+        padding-top: 12px;
+    }
+    .plans-box .plans-card p{
+
+        font-size: 0.9em;
+        padding-top: 10px;
+    }
+    #contract {
+        width: 100%;
+    }
+    #contract  .contract-container {
+        background-image: url('../images/watch.png');
+        max-width: 100%;
+        border: none;
+        height: auto;
+        background-position: center;
+        background-size: cover;
+        
+    }
+    #contract  .contract-container .contract-containt{
+
+        background-image: url('../images/gradient2.png');
+        width: 100%;
+        max-width: 100%;
+        border: none;
+        height: auto;
+        background-position: center;
+        background-size: cover;
+        
+    }
+    .contract-container .contract-containt .contract-box {
+        width: 100%;
+        margin-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding: 6%;
+    }
+    .contract-container .contract-containt .contract-box h1{
+        font-size: 1.3em;
+    }
+
+    .contract-container .contract-containt .contract- .button-subcribe ,button{
+
+        width: fit-content;
+        margin-top: 12px;
+        height: auto;
+        font-size: 0.9em;
+        padding: 3%;
+    }
+    footer .footer-container{
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex; 
+        flex-direction: column;
+        gap: 50px;
+
+    }
+    footer .footer-container .social {
+
+        max-width: 100%;
+        
+    }
+    footer .footer-container .social h2{
+        font-size: 1.9em;
+        font-weight: bold;
+        color: #F8F8F8;
+    }
+}

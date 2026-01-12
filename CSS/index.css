@@ -278,3 +278,6 @@ footer .footer-container .social .contract-box .social-icon {
     background-color: transparent;
     border-radius: 8px;
 }
+.hide{
+    display: none !important;
+}
